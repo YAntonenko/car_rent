@@ -1,0 +1,1 @@
+<?php require_once __DIR__ . '/../inc/functions.php'; require_admin(); $id=(int)($_GET['id'] ?? 0); if($id>0){ $stmt=db()->prepare('DELETE FROM cars WHERE id = ?'); $stmt->bind_param('i',$id); $stmt->execute(); flash('success','Auto kustutati.'); } redirect('index.php'); ?>

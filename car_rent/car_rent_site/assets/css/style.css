@@ -1,0 +1,5 @@
+body { background: #f8f9fa; }
+.hero-card { background: linear-gradient(135deg, #ffffff 0%, #eef3ff 100%); }
+.hero-image { min-height: 320px; object-fit: cover; }
+.car-card img { height: 220px; object-fit: cover; }
+.table td, .table th { vertical-align: middle; }
